@@ -1,0 +1,6 @@
+/* CSS */
+@import url();
+@import url();
+html{
+    scroll-behavior: smooth;
+}
