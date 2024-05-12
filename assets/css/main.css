@@ -1,6 +1,332 @@
 /* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 @import url();
-@import url();
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
+body {
+    margin-top: 100px;
+}
+
+/* fonts */
+a,
+p,
+h1,
+h2,
+h3 {
+    color: blue;
+    font-family: "Archivo", sans-serif;
+}
+
+/* #region header / navigation */
+
+header {
+    background-color: #fffffff1;
+    padding: 0px;
+    height: 84.5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+
+header div {
+    display: flex;
+    justify-content: center;
+}
+
+header div ul:first-of-type {
+    position: absolute;
+    left: 0;
+}
+
+header div ul:last-of-type {
+    position: absolute;
+    right: 0;
+}
+
+header div ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: 1rem;
+}
+
+header div ul:first-of-type {
+    text-align: left;
+}
+
+header div ul:last-of-type {
+    text-align: right;
+    position: absolute;
+    right: 2.8rem;
+}
+
+header div ul li {
+    letter-spacing: 2px;
+    margin: 0 1rem;
+}
+
+header div ul:last-of-type li {
+    margin: 0 1rem;
+}
+
+
+
+header div ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+header div div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    bottom: 1rem;
+}
+
+header div div h1 a {
+    color: blue;
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 900;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+header div div div a {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 1.05rem;
+    color: black;
+    font-weight: 1000;
+    font-size: 1rem;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: .5s ease;
+}
+
+/* hover fx */
+/* always + @ @ @ @ @ @ @ logo */
+header div div:hover div a {
+    opacity: .7;
+}
+
+header div div:hover h1 a {
+    opacity: .7;
+}
+
+/* #endregion header / navigation*/
+/* #region video */
+
+
+.video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* sidebars */
+
+.rightSide {
+    position: absolute;
+    right: -30%;
+    top: 43.3%;
+
+    margin: 0;
+    padding: 0;
+
+    rotate: 90deg;
+
+    font-size: 2rem;
+    letter-spacing: 4.5px;
+    font-weight: 700;
+}
+
+/* #endregion video */
+.clothingStart hr {
+    border: 0;
+    border-top: 2px dotted blue;
+    width: 1290px;
+    position: relative;
+}
+
+.containerOne {
+    position: relative;
+    top: 45rem;
+    padding: 1rem;
+    width: 72.4%;
+    margin: auto;
+}
+
+.containerOne img {
+    width: 20%;
+    transition: 400ms ease;
+}
+
+.containerOne img:hover {
+    opacity: .7;
+}
+
+/* clothing section nav */
+.clothingNav ul {
+    list-style: none;
+    width: 15rem;
+    position: relative;
+    top: 1rem;
+}
+
+.clothingNav ul li:first-of-type img {
+    width: 15rem;
+}
+
+.clothingNav ul li hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.clothingNav ul li:nth-child(2) hr {
+    margin-top: 2rem;
+}
+
+.clothingNav ul li a {
+    text-decoration: none;
+    transition: 500ms ease;
+    font-size: 1.2rem;
+}
+
+.clothingNav ul li a:hover {
+    color: #0000ff88;
+}
+
+
+/* #region */
+.gridContainerOne {
+    display: grid;
+
+}
+
+.gridItems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 74%;
+    position: relative;
+    left: 22%;
+    bottom: 6.7%;
+}
+.product{
+    transition: 500ms ease;
+    outline: #ddd solid 1px;
+    border-radius: .25rem;
+    text-align: center;
+}
+
+.gridItems img {
+    width: 100%;
+}
+
+.product:hover {
+    outline: blue solid 1px;
+    z-index: 999;
+}
+
+.product h2{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* #endregion */
+/* #region footer */
+footer{
+    height: 20rem;
+    width: 1390px;
+    margin: auto;
+    position: relative;
+    top: 23rem;
+}
+.topHr, .bottomHr{
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 1rem 0;
+}
+.gridContainerTwo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.leftSide p, .rghtside p{
+    letter-spacing: 1px;
+    margin: 1rem 0rem;
+}
+.leftSide p:first-of-type, .rghtside p{
+    font-weight: 800;
+}
+/* RS inputs */
+.inputs{
+    /* background-color: #ddd; */
+    display: flex;
+}
+.inputs input[type="submit"]{
+    cursor: pointer;
+    color: blue;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 24%;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.inputs input[type="email"] {
+    width: 70%;
+    padding: 1rem;
+    background-color: lime;
+    margin: 0;
+    border: none;
+    border: blue solid 1px;
+    color: blue; 
+    font-size: 1rem;
+}
+.inputs input[type="email"]:focus{
+    outline: none; /* Removes the default black border */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gridContainerTwo section:last-of-type ul{
+    list-style: none;
+    display: flex;
+}
+.gridContainerTwo section:last-of-type ul li{
+    margin: 0 1rem 0 1rem;
+}
+.gridContainerTwo section:last-of-type ul li img{
+    width: 5rem;
+}
+
+
+/* #endregion footer */
+
+
+
+
