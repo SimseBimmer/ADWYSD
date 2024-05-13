@@ -1,14 +1,6 @@
 /* CSS */
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    margin-top: 100px;
-}
-
 /* fonts */
 a,
 p,
@@ -26,9 +18,6 @@ header {
     padding: 0px;
     height: 84.5px;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
     z-index: 1000;
 }
 
@@ -90,7 +79,7 @@ header div div {
     bottom: 1rem;
 }
 
-header div div h1 a {
+header div div h2 a {
     color: blue;
     font-size: 3rem;
     margin: 0;
@@ -118,69 +107,38 @@ header div div:hover div a {
     opacity: .7;
 }
 
-header div div:hover h1 a {
+header div div:hover h2 a {
     opacity: .7;
+}
+
+#headerHr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 1rem 0;
+    position: relative;
+    bottom: 2.5rem;
 }
 
 /* #endregion header / navigation*/
-/* #region video */
-
-
-.video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* sidebars */
-
-.rightSide {
-    position: absolute;
-    right: -30%;
-    top: 43.3%;
-
-    margin: 0;
-    padding: 0;
-
-    rotate: 90deg;
-
-    font-size: 2rem;
-    letter-spacing: 4.5px;
-    font-weight: 700;
-}
-
-/* #endregion video */
-.clothingStart hr {
-    border: 0;
-    border-top: 2px dotted blue;
-    width: 1290px;
-    position: relative;
-}
-
-.containerOne {
-    position: relative;
-    top: 45rem;
-    padding: 1rem;
-    width: 72.4%;
+/* #region main */
+main {
+    width: 1300px;
     margin: auto;
 }
-
-.containerOne img {
-    width: 20%;
-    transition: 400ms ease;
+.mainHeaderHr{
+    border: none;
+    border-top: 1px solid #ff0000;
+    margin: 1rem 0;
+    position: relative;
+    top: 30rem;
 }
-
-.containerOne img:hover {
-    opacity: .7;
-}
-
 /* clothing section nav */
 .clothingNav ul {
     list-style: none;
     width: 15rem;
     position: relative;
-    top: 1rem;
+    bottom: 3rem;
+    left: 7rem;
 }
 
 .clothingNav ul li:first-of-type img {
@@ -205,127 +163,138 @@ header div div:hover h1 a {
 .clothingNav ul li a:hover {
     color: #0000ff88;
 }
-
-
-/* #region */
-.gridContainerOne {
+.gridTwo{
     display: grid;
-
+    grid-template-columns: repeat(2, 1fr);
+    width: 16.55rem;
+    position: relative;
+    left: 9rem;
+    bottom: 3.5rem;
+    gap: .3rem;
+}
+.gridTwo img{
+    width: 8rem;
+    cursor: pointer;
+    transition: 400ms ease;
+    outline: transparent solid 1px;
+    border-radius: 4px;
+}
+.gridTwo img:hover{
+    outline: blue solid 1px;
 }
 
-.gridItems {
+
+/* grid */
+.gridOne {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 74%;
-    position: relative;
-    left: 22%;
-    bottom: 6.7%;
-}
-.product{
-    transition: 500ms ease;
-    outline: #ddd solid 1px;
-    border-radius: .25rem;
-    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
 }
 
-.gridItems img {
+.itemImage img {
     width: 100%;
 }
-
-.product:hover {
-    outline: blue solid 1px;
-    z-index: 999;
-}
-
-.product h2{
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
-
-/* #endregion */
-/* #region footer */
-footer{
-    height: 20rem;
-    width: 1390px;
-    margin: auto;
+.ItemDetails{
     position: relative;
-    top: 23rem;
+    left: 2rem;
 }
-.topHr, .bottomHr{
+.itemImage, .ItemDetails{
+    position: relative;
+    top: 12rem;
+}
+#brbr{
     border: none;
     border-top: 1px solid #ddd;
     margin: 1rem 0;
+    position: relative;
+    top: 10.85rem;
+    left: 25rem;
+    width: 800px;
 }
-.gridContainerTwo{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-.leftSide p, .rghtside p{
+/* item details */
+/* h1 */
+#itemName{
+    font-size: 1.7rem;
+    margin: .5rem 0;
+    font-weight: 600;
     letter-spacing: 1px;
-    margin: 1rem 0rem;
 }
-.leftSide p:first-of-type, .rghtside p{
-    font-weight: 800;
+#itemPrice{
+    font-size: 1.5rem;
+    margin: .5rem .0;
+    font-weight: 400;
+    letter-spacing: 1.5px;
 }
-/* RS inputs */
-.inputs{
-    /* background-color: #ddd; */
-    display: flex;
-}
-.inputs input[type="submit"]{
-    cursor: pointer;
-    color: blue;
-    border: none;
-    margin: 0;
-    padding: 0;
-    width: 24%;
-    font-size: 1rem;
-    font-weight: 100;
-}
-
-.inputs input[type="email"] {
+#itemDescription{
     width: 70%;
-    padding: 1rem;
-    background-color: lime;
+    position: relative;
+    top: 2.5rem;
+}
+#tax{
     margin: 0;
+}
+#size{
+    margin: 2.5rem 0 .5rem 0;
+}
+#itemSizes{
     border: none;
     border: blue solid 1px;
-    color: blue; 
+    background-color: lime;
+    width: 7rem;
+    height: 2.5rem;
+    color: blue;
     font-size: 1rem;
 }
-.inputs input[type="email"]:focus{
-    outline: none; /* Removes the default black border */
+#itemSizes:focus{
+    outline: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.gridContainerTwo section:last-of-type ul{
-    list-style: none;
-    display: flex;
+#atc{
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+    display: block;
+    position: relative;
+    top: 1rem;
+    color: blue;
+    cursor: pointer;
+    transition: 400ms ease;
 }
-.gridContainerTwo section:last-of-type ul li{
-    margin: 0 1rem 0 1rem;
+#atc:hover{
+    border: blue solid 1px;
 }
-.gridContainerTwo section:last-of-type ul li img{
-    width: 5rem;
+#brbrbr{
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 1rem 0;
+
 }
-
-
-/* #endregion footer */
-
-
-
-
+.ymal{
+    position: relative;
+    top: 6rem;
+    left: 25rem;
+    width: 800px;
+}
+.gridContainerThree{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+}
+.product{
+    text-align: center;
+    overflow-x: hidden;
+}
+.product a img{
+    width: 10rem;
+}
+.product h2{
+    margin: 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.product p{
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+/* #endregion main */
