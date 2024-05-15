@@ -90,7 +90,7 @@ header div div {
     bottom: 1rem;
 }
 
-header div div h1 a {
+header div div h2 a {
     color: blue;
     font-size: 3rem;
     margin: 0;
@@ -268,11 +268,10 @@ footer{
     font-weight: 800;
 }
 /* RS inputs */
-.inputs{
-    /* background-color: #ddd; */
+.inputs form{
     display: flex;
 }
-.inputs input[type="submit"]{
+.inputs form input[type="submit"]{
     cursor: pointer;
     color: blue;
     border: none;
@@ -282,7 +281,9 @@ footer{
     font-size: 1rem;
     font-weight: 100;
 }
-
+#message{
+    margin: .5rem 0 0 0;
+}
 .inputs input[type="email"] {
     width: 70%;
     padding: 1rem;
@@ -292,6 +293,9 @@ footer{
     border: blue solid 1px;
     color: blue; 
     font-size: 1rem;
+}
+.inputs input::placeholder{
+    color: blue;
 }
 .inputs input[type="email"]:focus{
     outline: none; /* Removes the default black border */

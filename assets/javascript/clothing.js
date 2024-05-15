@@ -11,12 +11,275 @@ const items = [
     {
         // Item 2
         name: "magazine-tshirt-black",
-        price: 22.99,
+        price: 310.00,
         image: 'assets/images/clothes/2.webp',
         description: "A trendy t-shirt with a unique design.",
         sizes: ["S", "M", "L", "XL"]
     },
-
+    {
+        // Item 3
+        name: "magazine-tshirt-black",
+        price: 310.00,
+        image: 'assets/images/clothes/3.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 4
+        name: "magazine-tshirt-black",
+        price: 310.00,
+        image: 'assets/images/clothes/4.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 5
+        name: "magazine-tshirt-black",
+        price: 310.00,
+        image: 'assets/images/clothes/5.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 6
+        name: "magazine-tshirt-black",
+        price: 885.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 7
+        name: "magazine-tshirt-black",
+        price: 620.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 8
+        name: "magazine-tshirt-black",
+        price: 885.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 9
+        name: "magazine-tshirt-black",
+        price: 708.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 10
+        name: "magazine-tshirt-black",
+        price: 885.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 11
+        name: "magazine-tshirt-black",
+        price: 266.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 12
+        name: "magazine-tshirt-black",
+        price: 885.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 13
+        name: "magazine-tshirt-black",
+        price: 620.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 14
+        name: "magazine-tshirt-black",
+        price: 620.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 15
+        name: "magazine-tshirt-black",
+        price: 885.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 16
+        name: "magazine-tshirt-black",
+        price: 885.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 17
+        name: "magazine-tshirt-black",
+        price: 885.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 18
+        name: "magazine-tshirt-black",
+        price: 107.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 19
+        name: "magazine-tshirt-black",
+        price: 885.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 20
+        name: "magazine-tshirt-black",
+        price: 310.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 21
+        name: "magazine-tshirt-black",
+        price: 310.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 22
+        name: "magazine-tshirt-black",
+        price: 885.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 23
+        name: "magazine-tshirt-black",
+        price: 531.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 24
+        name: "magazine-tshirt-black",
+        price: 443.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 25
+        name: "magazine-tshirt-black",
+        price: 443.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 26
+        name: "magazine-tshirt-black",
+        price: 620.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 27
+        name: "magazine-tshirt-black",
+        price: 708.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 28
+        name: "magazine-tshirt-black",
+        price: 222.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 29
+        name: "magazine-tshirt-black",
+        price: 222.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 30
+        name: "magazine-tshirt-black",
+        price: 885.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 31
+        name: "magazine-tshirt-black",
+        price: 107.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 32
+        name: "magazine-tshirt-black",
+        price: 222.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 33
+        name: "magazine-tshirt-black",
+        price: 222.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 34
+        name: "magazine-tshirt-black",
+        price: 531.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        // Item 35
+        name: "magazine-tshirt-black",
+        price: 89.00,
+        image: 'assets/images/clothes/2.webp',
+        description: "A trendy t-shirt with a unique design.",
+        sizes: ["S", "M", "L", "XL"]
+    }
 ];
 
 
@@ -108,3 +371,5 @@ document.getElementById("backImage").addEventListener("click", function () {
     changeMainImage("assets/images/clothes/1,2.webp");
     setOpacityToEighty("backImage");
 });
+
+

@@ -172,3 +172,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
     updateProductsInfo();
 });
+
+// email
+document.addEventListener("DOMContentLoaded", function() {
+    const messageElement = document.getElementById("message");
+    const form = document.getElementById("subscribeForm");
+    const emailInput = document.getElementById("email");
+
+    form.addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent the form from submitting
+
+        // Change the text to "email sent"
+        messageElement.textContent = "Email sent";
+
+        // After one second, revert back to the original text and clear the email input
+        setTimeout(function() {
+            messageElement.textContent = "";
+            emailInput.value = ""; // Clear the email input
+        }, 1000);
+    });
+});

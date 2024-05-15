@@ -22,7 +22,7 @@
             </ul>
             <div>
                 <!-- scroll til top -->
-                <!-- <h2><a href="#" onclick="scrollToTop()">adwysd</a></h2> -->
+                <h2><a href="#" onclick="scrollToTop()">adwysd</a></h2>
                 <div>
                     <a href="#top">@@@@@@@@@@@</a></a>
 
@@ -80,7 +80,7 @@
                             <p>310,00 kr</p>
                         </div>
                         <div class="product">
-                            <a href="#"><img src="assets/images/clothes/2.webp" alt=""></a>
+                            <a href="clothing Item - 2.html"><img src="assets/images/clothes/2.webp" alt=""></a>
                             <h2>cohesive-tshirt-white</h2>
                             <p>310,00 kr</p>
                         </div>                        <div class="product">
@@ -239,9 +239,12 @@
             <section class="rghtside">
                 <p>be in the know</p>
                 <div class="inputs">
-                    <input type="email" placeholder="Your email">
-                    <input type="submit" value="SUBSCRIBE">
+                    <form id="subscribeForm">
+                        <input type="email" required name="email" id="email" placeholder="Your email">
+                        <input type="submit" value="SUBSCRIBE">
+                    </form>
                 </div>
+                <p id="message"></p>
             </section>
         </div>
         <hr class="bottomHr">
